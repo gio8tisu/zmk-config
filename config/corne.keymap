@@ -32,10 +32,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp DELETE           &kp Q                      &kp W                    &kp E                    &kp R                 &kp T        &kp Y      &kp U                 &kp I                     &kp O                     &kp P                               &mt DELETE BACKSPACE
+&none                &kp Q                      &kp W                    &kp E                    &kp R                 &kp T        &kp Y      &kp U                 &kp I                     &kp O                     &kp P                               &kp DELETE
 &mt ESCAPE CAPSLOCK  &homerow_mod LEFT_SHIFT A  &homerow_mod LEFT_ALT S  &homerow_mod LEFT_GUI D  &homerow_mod LCTRL F  &kp G        &kp H      &homerow_mod RCTRL J  &homerow_mod RIGHT_GUI K  &homerow_mod RIGHT_ALT L  &homerow_mod RIGHT_SHIFT SEMICOLON  &kp SQT
 &to 3                &kp Z                      &kp X                    &kp C                    &kp V                 &kp B        &kp N      &kp M                 &kp COMMA                 &kp DOT                   &kp FSLH                            &kp MINUS
-                                                                         &kp TAB                  &mo 1                 &kp SPACE    &kp SPACE  &mo 2                 &kp ENTER
+                                                                         &kp TAB                  &mo 1                 &kp SPACE    &kp ENTER  &mo 2                 &kp BACKSPACE
             >;
         };
 
